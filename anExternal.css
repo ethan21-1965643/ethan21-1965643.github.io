@@ -1,0 +1,70 @@
+#para1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#para2 {
+    font-family: cursive;
+}
+
+h3 {
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.a {
+    height: 50px;
+    width: 50px;
+}
+
+div.a{
+    width: 300px;
+    height: 80px;
+    background-color: yellow;
+    transform: rotate(20deg);
+}
+
+.image {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+}
+
+.c {
+    margin: 20px;
+}
+
+#dotted{
+    border: rgb(20, 165, 20);
+    border-style: dotted;
+}
+
+#float {
+    float: right;
+}
+
+section {
+    float: left;
+}
+  
+div {
+    margin: 5px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#rounded{
+    border-radius: 15px;
+    border: 2px solid #73AD21;
+}
